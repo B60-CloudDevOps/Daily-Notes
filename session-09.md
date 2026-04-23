@@ -1,4 +1,3 @@
-Got it—cleaned up, structured, and slightly polished your notes into a proper Markdown document.
 
 ***
 
