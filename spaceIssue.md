@@ -1,6 +1,12 @@
+# How to fix the space issues on the lab AMI ?
+    Our LAB AMI uses xfs fileSystem
+
+    Expanding the disk, is not going to let the fileSystem take it directly. 
+
+
 How to fix the space issue:
 
-    1) On LAB AMI, if you see that you ran out of space, you can assign it to the disk
+    1) On LAB AMI, if you see that you ran out of space, you can expand the disk first ( But stll it won't be showing up on the system )
     2) But if still you cannot access it as we are using LVM and you've to deligate that to the needed partion.
     3) And the commands varies based on the fileSystem that the system uses, ( ext4, jfs, xfs ) and we use xfs. 
 
